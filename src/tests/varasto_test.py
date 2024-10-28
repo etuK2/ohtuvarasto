@@ -8,7 +8,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_konstruktori_luo_tyhjan_varaston(self):
         # https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertAlmostEqual
-        self.assertAlmostEqual(self.varasto.saldo, 0)
+        self.assertAlmostEqual(self.varasto.saldo, 2)
         self.uusivarasto = Varasto(10,-10)
         self.assertAlmostEqual(self.uusivarasto.saldo, 0)
 
